@@ -9,7 +9,7 @@ html{
 body {
   height: 100vh;
   width: 100vw;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 .container{
   max-width: 142rem;
@@ -45,7 +45,7 @@ ul{
   gap: 2rem;
 }
 a img{
-  width: 10rem;
+  width: 5rem;
   aspect-ratio: 1;
   border-radius: 50%;
 }
@@ -65,15 +65,40 @@ a:active{
 
 .photoside{
   background-color: rgb(249, 249, 0);
-  /* border: 1px solid red; */
   & .image{
-    height: 100vh;
+      height: 100vh;
     width: 100vw;
+    /* right: 50%; */
+      background-image: url('../public/images/logo.png');
+    background-size: 75% 100%;
+    background-position: 50;
+    animation: carousel 10s ease-in-out infinite;
+    }
+  
+  
+  
+}
+@keyframes carousel {
+  0%{
     background-image: url('../public/images/logo.png');
-    background-size: contain;
+    background-size: 75% 100%;
     background-position: 50;
   }
-  
+  49%{
+    background-image: url('../public/images/logo.png');
+    background-size: 75% 100%;
+    background-position: 50;
+  }
+  50%{
+    background-image: url('../public/images/Untitled-2.png');
+    background-size: 75% 100%;
+    background-position: 50;
+  }
+  100%{
+    background-image: url('../public/images/Untitled-2.png');
+    background-size: 75% 100%;
+    background-position: 50;
+  }
 }
 .name-side{
   width: 50rem;

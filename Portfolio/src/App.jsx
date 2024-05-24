@@ -5,6 +5,7 @@ import About from './pages/about'
 import Projects from './pages/projects'
 import Contact from './pages/contact'
 import Header from './components/Header'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App() {
   return (

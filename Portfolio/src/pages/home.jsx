@@ -15,7 +15,9 @@ export default function home() {
           </div>
         </div>
         <div className="photoside">
-          <div className="image"></div>
+          <div className="image">
+            
+          </div>
         </div>
       </div>
     </section>
