@@ -25,6 +25,15 @@ body {
 .grid-two--cols{
   grid-template-columns: repeat(2,1fr);
 }
+.redirect{
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  & .tag{
+    color: blue;
+  }
+}
 nav{
   box-shadow: 1px 1px 5px black;
   position: sticky;
@@ -152,4 +161,41 @@ a:active{
   font-size: 1.4rem;
   color: gray;
   margin-top: 15rem;
+}
+.card-about{
+  min-width: 18rem;
+  box-shadow: 1px 1px 5px rgb(236, 234, 234);
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  & .Number{
+    font-size: 3.6rem;
+    color: rgb(241, 202, 6);
+  }
+}
+.information-section::before{
+  content: "About Me";
+  color: rgb(241, 202, 6);
+  font-weight: bolder;
+  font-size: 1.8rem;
+}
+.about-heading{
+  font-size: 3.6rem;
+  font-weight: bolder;
+  margin-bottom: 1.2rem;
+
+}
+.about-subheading{
+  color: gray;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 1.8rem;
+}
+.left-section,.right-section{
+  font-size: 1.6rem;
+  font-weight: bold;
+  & .info{
+    color: rgb(241, 202, 6);
+  }
 }
