@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa";
+import Footer from '../components/Footer';
 export default function home() {
   return (
     <section className='hero'>
@@ -10,9 +11,7 @@ export default function home() {
             <button><a href="/about" className='about-button'>More About Me <span className='arrow'><FaArrowRight/></span></a></button>
             <button><a href="/hire" className='hire-button'>Hire <span className='arrow'><FaArrowRight/></span></a></button>
           </div>
-          <div className="copyright">
-            <p>Copyright &copy;2024 All rights reserved | Created by ❤️ Kushagra Goyal  </p>
-          </div>
+          <Footer/>
         </div>
         <div className="photoside">
           <div className="image">
