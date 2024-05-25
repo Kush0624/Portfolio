@@ -43,7 +43,74 @@ export default function About() {
                   <p>Phone: <span className='info'>+918923475484</span></p>
                 </div>
               </div>
+              <button className='cvbutton'><a href="/files/resume.pdf" target='_blank'>Download CV</a></button>
             </div>
+      </div>
+      <div className="skills"><center><span>Skills</span><br /><h1>My Skills</h1></center></div>
+      <div className="container skill">
+        <div className="skill-card">
+          <div className="techno">
+            <div className="tech-name">Adobe photoshop</div>
+            <div className="percent">90%</div>
+          </div>
+          <div className="percentage"><div className="length" role="progressbar" style={{width: "90%"}}></div></div>
+        </div>
+        <div className="skill-card">
+          <div className="techno">
+            <div className="tech-name">Aodbe after effects</div>
+            <div className="percent">40%</div>
+          </div>
+          <div className="percentage"><div className="length" role="progressbar" style={{width: "40%"}} ></div></div>
+        </div>
+        <div className="skill-card">
+          <div className="techno">
+            <div className="tech-name">figma</div>
+            <div className="percent">70%</div>
+          </div>
+          <div className="percentage"><div className="length" role="progressbar" style={{width: "70%"}} ></div></div>
+        </div>
+        <div className="skill-card">
+          <div className="techno">
+            <div className="tech-name">html 5</div>
+            <div className="percent">95%</div>
+          </div>
+          <div className="percentage"><div className="length" role="progressbar" style={{width: "95%"}} ></div></div>
+        </div>
+        <div className="skill-card">
+          <div className="techno">
+            <div className="tech-name">css3</div>
+            <div className="percent">90%</div>
+          </div>
+          <div className="percentage"><div className="length" role="progressbar" style={{width: "90%"}} ></div></div>
+        </div>
+        <div className="skill-card">
+          <div className="techno">
+            <div className="tech-name">javascript</div>
+            <div className="percent">85%</div>
+          </div>
+          <div className="percentage"><div className="length" role="progressbar" style={{width: "85%"}} ></div></div>
+        </div>
+        <div className="skill-card">
+          <div className="techno">
+            <div className="tech-name">react</div>
+            <div className="percent">70%</div>
+          </div>
+          <div className="percentage"><div className="length" role="progressbar" style={{width: "70%"}}></div></div>
+        </div>
+        <div className="skill-card">
+          <div className="techno">
+            <div className="tech-name">Pyhton</div>
+            <div className="percent">80%</div>
+          </div>
+          <div className="percentage"><div className="length" role="progressbar" style={{width: "80%"}} ></div></div>
+        </div>
+        <div className="skill-card">
+          <div className="techno">
+            <div className="tech-name">backend</div>
+            <div className="percent">60%</div>
+          </div>
+          <div className="percentage"><div className="length" role="progressbar" style={{width: "60%"}} ></div></div>
+        </div>
       </div>
       <center><Footer/></center>
     </>
